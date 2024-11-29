@@ -1,0 +1,3 @@
+../Core/Src/global.c:24:5:stringCompare	3
+../Core/Src/global.c:32:6:clearString	2
+../Core/Src/global.c:37:9:stringLength	3

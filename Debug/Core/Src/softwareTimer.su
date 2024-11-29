@@ -1,0 +1,6 @@
+../Core/Src/softwareTimer.c:18:10:tickDuration	4	static
+../Core/Src/softwareTimer.c:38:6:initSoftwareTimer	16	static
+../Core/Src/softwareTimer.c:44:5:isFlagOnTimer	16	static
+../Core/Src/softwareTimer.c:49:6:deleteExistedTimer	24	static
+../Core/Src/softwareTimer.c:81:6:setTimer	32	static
+../Core/Src/softwareTimer.c:131:6:timerRun	16	static

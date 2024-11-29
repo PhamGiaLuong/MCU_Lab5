@@ -36,7 +36,9 @@ extern "C" {
 
 /* Exported types ------------------------------------------------------------*/
 /* USER CODE BEGIN ET */
+extern ADC_HandleTypeDef hadc1;
 
+extern UART_HandleTypeDef huart2;
 /* USER CODE END ET */
 
 /* Exported constants --------------------------------------------------------*/
@@ -53,7 +55,7 @@ extern "C" {
 void Error_Handler(void);
 
 /* USER CODE BEGIN EFP */
-
+void sendData(const char* str);
 /* USER CODE END EFP */
 
 /* Private defines -----------------------------------------------------------*/

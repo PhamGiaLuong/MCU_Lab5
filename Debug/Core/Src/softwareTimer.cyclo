@@ -1,0 +1,6 @@
+../Core/Src/softwareTimer.c:18:10:tickDuration	1
+../Core/Src/softwareTimer.c:38:6:initSoftwareTimer	1
+../Core/Src/softwareTimer.c:44:5:isFlagOnTimer	1
+../Core/Src/softwareTimer.c:49:6:deleteExistedTimer	6
+../Core/Src/softwareTimer.c:81:6:setTimer	8
+../Core/Src/softwareTimer.c:131:6:timerRun	6
