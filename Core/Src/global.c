@@ -7,14 +7,13 @@
 
 #include "global.h"
 
-
 uint8_t temp = 0;
 uint8_t buffer[MaxBufferSize];
 uint8_t bufferID = 0;
 uint8_t bufferFlag = 0;
 
-enum systemState parseState= Idel;
-enum systemState protocolState = Idel;
+enum systemState parseState= Idle;
+enum systemState protocolState = Idle;
 
 char commandData[10] = "Ok";
 uint8_t commandFlag = 0;

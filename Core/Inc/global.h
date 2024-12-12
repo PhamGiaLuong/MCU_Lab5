@@ -19,7 +19,8 @@ extern uint8_t buffer[MaxBufferSize];
 extern uint8_t bufferID;
 extern uint8_t bufferFlag;
 
-enum systemState {Idel, Bang, Hash, Send, Wait, Resend, Received, Failure};
+enum systemState {Idle, Parse, Check, Send, Wait,
+                    Resend, Received, Failure};
 
 extern enum systemState parseState;
 extern enum systemState protocolState;

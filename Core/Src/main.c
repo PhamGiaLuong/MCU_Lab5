@@ -124,26 +124,12 @@ int main(void)
   HAL_TIM_Base_Start_IT(&htim2);
   HAL_ADC_Start(&hadc1);
   initSoftwareTimer(10);
-//  uint32_t ADC_value;
-//  char str[10] = "Hello\n";
   while (1)
   {
-//	  HAL_GPIO_TogglePin(GPIOA, Led_Pin);
-//	  ADC_value = HAL_ADC_GetValue(&hadc1);
-//	  sprintf((char *)str, "%d\n", ADC_value);
-//      HAL_UART_Transmit(&huart2, str, strlen((char *)str), 1000);
-//	  str = itoa(ADC_value);
-//	  sprintf(str, "%d\n", ADC_value);
-//	  HAL_UART_Transmit(&huart2, (void *)str, strlen(str), 1000);
-//	  HAL_Delay(500);
-
-//		const char *s = commandData;
-//		HAL_UART_Transmit(&huart2, (void *)s, stringLength(s), 1000);
 	  if(bufferFlag == 1){
-		  commandParserFSM();
 		  bufferFlag = 0;
+		  commandParserFSM();
 	  }
-//	  if(stringCompare(&temp, "!")==0) sendData("!");
 	  uartCommunicationFSM();
     /* USER CODE END WHILE */
 

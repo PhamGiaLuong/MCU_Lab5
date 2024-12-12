@@ -1,0 +1,3 @@
+../Core/Src/uart.c:6:6:uartBegin	40	static
+../Core/Src/uart.c:42:6:command_parser_fsm	16	static
+../Core/Src/uart.c:95:6:uart_communication_fsm	48	static
